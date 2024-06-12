@@ -1,0 +1,237 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+   font-family: sans-serif;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    background-color: tomato;
+    height: 100%;
+}
+
+.fixed h2{
+    color: white;
+    line-height: 1.6;
+    padding: 80px 40px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.fixed  ul li {
+    list-style: none;
+    padding:15px 40px;
+    font-size: 20px;
+
+}
+
+.fixed ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+
+}
+
+.fixed ul li:hover,
+.fixed ul li:hover a {
+    background-color: white;
+    color: black;
+    width: 80%;
+}
+
+.full{
+    float:right;
+    width: 80%;
+}
+
+.nav{
+   margin-top: 80px;
+    
+}
+
+.nav h1 {
+    color: black;
+    font-size: 50px;
+    margin-bottom: 18px;
+    
+}
+
+.nav p {
+    color: tomato;
+    font-size: 45px;
+    
+    
+}
+ 
+.nav-hr {
+    border-radius: 5px;
+    color: tomato;
+    width: 5%;
+    border: 5px tomato solid ;   
+    margin:20px 0 30px 0;
+}
+
+.areaRL{
+    margin: auto;
+    width: 90%;
+}
+
+.imageW{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.imagefloat{
+    float: left;
+    width: 50%;
+    
+}
+
+.image{
+    width: 100%;
+    height: 45%;
+    
+}
+
+.services{
+    margin-top: 100px;
+}
+
+.services h2 {
+    font-size: 50px;
+    color: tomato;
+}
+
+.services p {
+    line-height:1.3;
+    font-size: 20px;
+}
+
+.designer{
+    margin-top: 100px;
+}
+.designer h2 {
+    font-size: 50px;
+    color: tomato;
+}
+
+.designer p {
+    line-height:1.3;
+    font-size: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+.W{
+    width: 100%;
+}
+
+.designer-float{
+    float: left;
+    width:33.3333%;
+    
+}
+
+.imageWw{
+    width: 100%;
+    height: 30%;
+}
+
+.designer-float2{
+    margin-right: 15px;
+    background-color:gainsboro;
+    line-height: 1.6;
+}
+.designer-float2 p {
+    margin: 15px;
+    font-size: 20px;
+}
+
+.space-img{
+    margin-right: 15px;
+    margin-bottom: 10px;
+    
+}
+
+.package-list{
+    width: 100%;
+}
+
+.list-float{
+    float: left;
+    width: 50%;
+    
+}
+
+.bck-list{
+background-color: whitesmoke;
+margin-right: 15px;
+margin-bottom: 40px;
+}
+
+.list-float ul li{
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+}
+
+.pro{
+    background-color: tomato;
+    
+}
+
+.basic{
+    background-color: gray;
+    
+}
+
+.span-list{
+    opacity: 0.3;
+    padding: 10px;
+}
+ .button2{
+    padding: 14px;
+    background-color: tomato;
+    color: white;
+    font-size: 17px;
+    border-style: none;
+ }
+
+ .button1{
+    padding: 14px;
+    background-color:white;
+    color: we;
+    font-size: 17px;
+    border-style: none;
+ }
+ .button2:hover,
+ .button1:hover{
+    background-color: black;
+    color: white;
+ }
+
+ .footer{
+    height: 15%;
+    background-color: gainsboro;
+ }
+ .footer p {
+    text-align: right;
+    padding: 30px;
+    font-size: 20px;
+ }
+
+ .footer p a {
+    color: black;
+ }
